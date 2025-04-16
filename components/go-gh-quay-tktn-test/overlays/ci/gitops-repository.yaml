@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: go-gh-quay-tktn-test-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/go-gh-quay-tktn-test-gitops
